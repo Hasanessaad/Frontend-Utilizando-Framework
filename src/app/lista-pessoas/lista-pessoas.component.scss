@@ -1,0 +1,43 @@
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead th {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+  }
+  
+  tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  tbody tr:last-child td {
+    border-bottom: none;
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: #f8f9fa;
+  }
+  
+  tbody tr:hover {
+    background-color: #e9ecef;
+  }
+  
+  /* Button Styles */
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
